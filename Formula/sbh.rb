@@ -1,21 +1,20 @@
 class Sbh < Formula
   desc "Disk-pressure defense system for AI coding workloads"
   homepage "https://github.com/Dicklesworthstone/storage_ballast_helper"
-  version "0.4.8"
   license "MIT"
 
   # Release automation copies this skeleton into Dicklesworthstone/homebrew-sbh
   # and replaces both placeholder checksums before opening the tap PR.
   on_macos do
     on_arm do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v#{version}/" \
-          "sbh-v#{version}-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.8/" \
+          "sbh-v0.4.8-aarch64-apple-darwin.tar.xz"
       sha256 "446786cfe013ed39a9134984a80373872f611c37eb39b333890d0bb93e8b166d"
     end
 
     on_intel do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v#{version}/" \
-          "sbh-v#{version}-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.8/" \
+          "sbh-v0.4.8-x86_64-apple-darwin.tar.xz"
       sha256 "2fb81372138324886d493c2cc9ca86a187700c6df26e15091dcffb32b5f34734"
     end
   end
