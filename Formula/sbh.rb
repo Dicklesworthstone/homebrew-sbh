@@ -7,15 +7,15 @@ class Sbh < Formula
   # and replaces both placeholder checksums before opening the tap PR.
   on_macos do
     on_arm do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.27/" \
-          "sbh-v0.4.27-aarch64-apple-darwin.tar.xz"
-      sha256 "fa2416dfeb28c64e8cbba6df2ec861e761a66c9000e85e6e78038bd3d7aa2f39"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.28/" \
+          "sbh-v0.4.28-aarch64-apple-darwin.tar.xz"
+      sha256 "666f2492c6d740d87777dfe76706254a91b07a34a883fff0541b9c1d8f025cb9"
     end
 
     on_intel do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.27/" \
-          "sbh-v0.4.27-x86_64-apple-darwin.tar.xz"
-      sha256 "c8a937cffa148734b8797f51746e06869972e34f38d182a266aa20dafdec717d"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.4.28/" \
+          "sbh-v0.4.28-x86_64-apple-darwin.tar.xz"
+      sha256 "c4c81cc2d2893652605c04a366444770214ef0a2b6c07c5a378db87b8a2c031f"
     end
   end
 
