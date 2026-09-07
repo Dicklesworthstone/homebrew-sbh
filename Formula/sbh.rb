@@ -4,6 +4,8 @@ class Sbh < Formula
   version "0.6.0"
   license "MIT"
 
+  depends_on :macos
+
   on_macos do
     on_arm do
       url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.0/" \
