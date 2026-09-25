@@ -5,19 +5,19 @@ class Sbh < Formula
 
   depends_on :macos
 
-  # Release automation copies this skeleton into Dicklesworthstone/homebrew-sbh
-  # and replaces both placeholder checksums before opening the tap PR.
+  # `scripts/dsr_release.sh tap VERSION` renders this skeleton (version in the
+  # URLs, both placeholder checksums) and pushes it to Dicklesworthstone/homebrew-sbh.
   on_macos do
     on_arm do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.4/" \
-          "sbh-v0.6.4-aarch64-apple-darwin.tar.xz"
-      sha256 "56d23c226f8cf6c90dd1dfc502bb5e74f53ea505dd0857510bce4c1d3d64f72b"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.5/" \
+          "sbh-v0.6.5-aarch64-apple-darwin.tar.xz"
+      sha256 "f5c6dff48b36da252bfff480da4584f1138e644b97b868c25464e3eebb3cfc11"
     end
 
     on_intel do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.4/" \
-          "sbh-v0.6.4-x86_64-apple-darwin.tar.xz"
-      sha256 "762a555ab864413dc5e8fc6b056a9e1894d254980280b28ae39eb6017795580d"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.5/" \
+          "sbh-v0.6.5-x86_64-apple-darwin.tar.xz"
+      sha256 "2fe186d8880f552e7d2423c84fc7bd94369a72eb171363b682b6f03f70692527"
     end
   end
 
