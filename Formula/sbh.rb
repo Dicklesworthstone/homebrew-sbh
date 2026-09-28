@@ -9,15 +9,15 @@ class Sbh < Formula
   # URLs, both placeholder checksums) and pushes it to Dicklesworthstone/homebrew-sbh.
   on_macos do
     on_arm do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.14/" \
-          "sbh-v0.6.14-aarch64-apple-darwin.tar.xz"
-      sha256 "0f37bbf3a8837816e1e9e08df2828bc12963b554ee0e911f7328f38de10ee7f2"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.15/" \
+          "sbh-v0.6.15-aarch64-apple-darwin.tar.xz"
+      sha256 "1e0d665f485689657b3c11e0448462c0de2dae6ed4558ca772d63fe7cb6070f9"
     end
 
     on_intel do
-      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.14/" \
-          "sbh-v0.6.14-x86_64-apple-darwin.tar.xz"
-      sha256 "e6006dc12b2bbe65ef660ae1d1ba44cf6e0d3793ea16cb16d0027e9aaa46be01"
+      url "https://github.com/Dicklesworthstone/storage_ballast_helper/releases/download/v0.6.15/" \
+          "sbh-v0.6.15-x86_64-apple-darwin.tar.xz"
+      sha256 "7d52c67d9d6144e06f4f07acb0ab8bea8b2facf447e1b961e08eb3ca23f33d1a"
     end
   end
 
